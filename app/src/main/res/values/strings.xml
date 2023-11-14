@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">proj1</string>
+    <string name="result">Вычислить</string>
+    <string name="sum">Сумма</string>
+    <string name="average">Среднее</string>
+    <string name="number">Число</string>
+</resources>
