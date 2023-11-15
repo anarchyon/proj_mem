@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_nested_scroll);
+        setContentView(R.layout.activity_main);
 
 //        Button button = findViewById(R.id.button);
 //        EditText editText1 = findViewById(R.id.editTextNumber1);

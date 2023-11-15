@@ -15,4 +15,9 @@
     <string name="number9">9</string>
     <string name="number0">0</string>
     <string name="dot">.</string>
+    <string name="number_plus">+</string>
+    <string name="minus">-</string>
+    <string name="divide">\u00F7</string>
+    <string name="equals">=</string>
+    <string name="multiply">\u00D7</string>
 </resources>
