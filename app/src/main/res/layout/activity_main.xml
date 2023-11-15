@@ -9,58 +9,9 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textViewResult"
+
+    <include
+        layout="@layout/layout_class1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/result"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="53dp" />
-
-    <EditText
-        android:id="@+id/editTextNumber1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="@string/number"/>
-
-    <EditText
-        android:id="@+id/editTextNumber2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="@string/number" />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <RadioButton
-            android:id="@+id/radioButton1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sum"
-            android:checked="true"/>
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/average" />
-    </RadioGroup>
-
+        android:layout_height="wrap_content" />
 </LinearLayout>
