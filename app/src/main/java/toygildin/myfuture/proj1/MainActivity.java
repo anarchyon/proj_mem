@@ -10,31 +10,41 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    private TextView mainScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Button button = findViewById(R.id.button);
-//        EditText editText1 = findViewById(R.id.editTextNumber1);
-//        EditText editText2 = findViewById(R.id.editTextNumber2);
-//        TextView textView = findViewById(R.id.textViewResult);
-//        RadioButton radioButton1 = findViewById(R.id.radioButton1);
-//        RadioButton radioButton2 = findViewById(R.id.radioButton2);
-//
-//        button.setOnClickListener(v -> {
-//            double number1 = editText1.getText().toString().equals("") ?
-//                    0 : Integer.parseInt(editText1.getText().toString());
-//            double number2 = editText2.getText().toString().equals("") ?
-//                    0 : Integer.parseInt(editText2.getText().toString());
-//            double result;
-//            if (radioButton1.isChecked()) {
-//                result = number1 + number2;
-//            } else {
-//                result = (number1 + number2) / 2;
-//            }
-//            textView.setText(String.valueOf(result));
-//        });
+        initView();
+    }
+
+    private void initView() {
+        mainScreen = findViewById(R.id.main_screen);
+        Button[] numButtons = new Button[10];
+        numButtons[0] = findViewById(R.id.button_0);
+        numButtons[1] = findViewById(R.id.button_1);
+        numButtons[2] = findViewById(R.id.button_2);
+        numButtons[3] = findViewById(R.id.button_3);
+        numButtons[4] = findViewById(R.id.button_4);
+        numButtons[5] = findViewById(R.id.button_5);
+        numButtons[6] = findViewById(R.id.button_6);
+        numButtons[7] = findViewById(R.id.button_7);
+        numButtons[8] = findViewById(R.id.button_8);
+        numButtons[9] = findViewById(R.id.button_9);
+        for (Button numButton : numButtons) {
+            numButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    handleButtonClick(v);
+                }
+            });
+        }
+        Button buttonDot = findViewById(R.id.button_dot);
+    }
+
+    private void handleButtonClick(View v) {
+
     }
 }

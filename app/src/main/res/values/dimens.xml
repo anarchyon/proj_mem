@@ -4,4 +4,6 @@
     <dimen name="main_screen_text_size">50sp</dimen>
     <dimen name="main_screen_height_portrait">300dp</dimen>
     <dimen name="space">50dp</dimen>
+    <dimen name="main_screen_padding">15dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
 </resources>
