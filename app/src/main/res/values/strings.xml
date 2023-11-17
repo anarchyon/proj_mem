@@ -20,4 +20,5 @@
     <string name="divide">\u00F7</string>
     <string name="equals">=</string>
     <string name="multiply">\u00D7</string>
+    <string name="empty">_</string>
 </resources>

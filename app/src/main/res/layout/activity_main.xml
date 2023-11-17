@@ -14,7 +14,7 @@
         android:layout_height="@dimen/main_screen_height_portrait"
         android:background="@color/material_dynamic_tertiary80"
         android:padding="@dimen/main_screen_padding"
-        android:hint="@string/number0"
+        android:hint="@string/empty"
         app:layout_constraintBottom_toTopOf="@+id/button_7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@color/material_dynamic_tertiary80"
         android:padding="@dimen/main_screen_padding"
-        android:hint="@string/number0"
+        android:hint="@string/empty"
         app:layout_constraintEnd_toStartOf="@+id/button_7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
